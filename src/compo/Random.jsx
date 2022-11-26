@@ -16,8 +16,8 @@ function Random() {
             await axios.get( `${url}/trending/all/week?api_key=${API_KEY}&language=en-US`)
             .then((r)=>{
             setMovies(
-                r.data.results[15]
-                // Math.floor(Math.random() * r.data.results.length-1)
+                r.data.results[ Math.floor(Math.random() * r.data.results.length-1)]
+                
             )
         })
 
