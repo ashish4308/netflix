@@ -3,7 +3,7 @@
     object-fit: contain;
     height: 568px;
     background-size: cover;
-    background-position-y: center;
+/*     background-position-y: center; */
     /* background-repeat: no-repeat; */
 }
 
